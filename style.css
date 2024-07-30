@@ -13,6 +13,25 @@ body {
     background-position: center center;
 }
 
+nav {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+img {
+    display: block;
+    border-radius: 50%;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+img:hover {
+    border: 2px solid white;
+    transform: translate(-5px, -5px);
+    transition: 300ms;
+}
+
 .celular {
     background-image: url('imagens/frame-iphone.png');
     background-repeat: no-repeat;
